@@ -1,0 +1,108 @@
+<div class="main-page-content">
+    <div class="main-page-content__wrapper">
+        <div class="main-page-content__header">
+            <div class="tabs-page">
+                <ul class="tabs-page__list">
+                    <li class="tabs-page__item">
+                        <button class="tabs-page__target tabs-page__target--active">
+                            Edit Profile
+                        </button>
+                    </li>
+                    <li class="tabs-page__item">
+                        <button class="tabs-page__target">
+                            Preferences
+                        </button>
+                    </li>
+                    <li class="tabs-page__item">
+                        <button class="tabs-page__target">
+                            Security
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-page-content__user-info">
+            <div class="main-page-content__user-avatar">
+                <div class="avatar-user avatar-user--size130">
+                    <picture class="avatar-user__image-wrap">
+                        <source srcset="/images/upload/user-big.avif">
+                        <source srcset="/images/upload/user-big.webp">
+                        <source srcset="/images/upload/user-big.png">
+                        <img src="/images/upload/user-big.png" class="avatar-user__image" alt="name user">
+                    </picture>
+                    <button class="pencil-alt main-page-content__pencil-alt">
+                        <span class="svg-icon">
+                            <svg width="15px" height="15px" class="svg-icon__icon pencil-alt__icon">
+                                <use xlink:href="sprite.svg#pencil-alt"></use>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <form class="form-page">
+                <ul class="form-page__rows">
+                    <li class="form-page__row">
+                        <label for="YourName" class="form-page__title-input">Your Name</label>
+                        <input placeholder="Charlene Reed" id="YourName" name="YourName" type="text"
+                            class="form-page__input">
+                    </li>
+                    <li class="form-page__row">
+                        <label for="UserName" class="form-page__title-input">User Name</label>
+                        <input placeholder="Charlene Reed" id="UserName" name="UserName" type="text"
+                            class="form-page__input">
+                    </li>
+                    <li class="form-page__row">
+                        <label for="email" class="form-page__title-input">Email</label>
+                        <input placeholder="charlenereed@gmail.com" id="email" name="email" type="email"
+                            class="form-page__input">
+                    </li>
+                    <li class="form-page__row">
+                        <label for="Password" class="form-page__title-input">Password</label>
+                        <input placeholder="**********" id="Password" name="Password" type="password"
+                            class="form-page__input">
+                    </li>
+                    <li class="form-page__row">
+                        <label for="DateofBirth" class="form-page__title-input">Date of Birth</label>
+                        <div class="form-page__input-wrap">
+                            <input placeholder="25 January 1990" id="DateofBirth" name="DateofBirth" type="text"
+                                class="form-page__input">
+                            <span class="svg-icon form-page__svg">
+                                <svg width="14px" height="9px" class="svg-icon__icon">
+                                    <use xlink:href="sprite.svg#arrow"></use>
+                                </svg>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="form-page__row">
+                        <label for="PresentAddress" class="form-page__title-input">Present Address</label>
+                        <input placeholder="San Jose, California, USA" id="PresentAddress" name="PresentAddress"
+                            type="text" class="form-page__input">
+                    </li>
+                    <li class="form-page__row">
+                        <label for="PermanentAddress" class="form-page__title-input">Permanent Address</label>
+                        <input placeholder="San Jose, California, USA" id="PermanentAddress" name="PermanentAddress"
+                            type="text" class="form-page__input">
+                    </li>
+                    <li class="form-page__row">
+                        <label for="City" class="form-page__title-input">City</label>
+                        <input placeholder="San Jose" id="City" name="City" type="text" class="form-page__input">
+                    </li>
+                    <li class="form-page__row">
+                        <label for="PostalCode" class="form-page__title-input">Postal Code</label>
+                        <input placeholder="45962" id="PostalCode" name="PostalCode" type="number"
+                            class="form-page__input">
+                    </li>
+                    <li class="form-page__row">
+                        <label for="Country" class="form-page__title-input">Country</label>
+                        <input placeholder="USA" id="Country" name="Country" type="text" class="form-page__input">
+                    </li>
+                </ul>
+                <div class="form-page__bot">
+                    <button class="button-page">
+                        <span class="button-page__text">Save</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

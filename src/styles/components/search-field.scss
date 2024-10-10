@@ -1,0 +1,46 @@
+.search-field {
+    position: relative;
+
+    &__icon {
+        position: absolute;
+        top: 50%;
+        left: 25px;
+        transform: translateY(-50%);
+
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    &__input {
+        max-width: 255px;
+        border-radius: 40px;
+        background-color: #f5f7fa;
+        padding: 16px 43px 16px 60px;
+        font-weight: 400;
+        font-size: 15px;
+        color: #8ba3cb;
+        font-family: "Inter", Helvetica, Arial, sans-serif;
+
+        &::placeholder {
+            font-family: inherit;
+            font-size: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+
+    .search-field__input {
+        font-size: 13px;
+        padding: 12px 52px;
+    }   
+
+    .search-field__icon svg {
+        width: 16px;
+        height: 16px;
+    }
+}

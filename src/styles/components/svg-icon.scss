@@ -1,0 +1,11 @@
+.svg-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    &__icon {
+        flex-shrink: 0;
+        width: 25px;
+        height: 25px;
+    }
+}

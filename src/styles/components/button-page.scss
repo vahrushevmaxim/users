@@ -1,0 +1,32 @@
+.button-page {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #1814f3;
+    padding: 14px 74px;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+
+    &__text {
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .button-page {
+        padding: 11px 74px;
+    }
+
+    .button-page__text {
+        font-size: 15px;
+    }
+}

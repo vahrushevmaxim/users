@@ -1,0 +1,12 @@
+.title-big {
+    font-weight: 600;
+    font-size: 28px;
+    color: #343c6a;
+}
+
+@media (max-width: 500px) {
+
+    .title-big {
+        font-size: 20px;
+    }
+}
